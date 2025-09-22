@@ -1,6 +1,6 @@
 NovaTech Solutions Website
 
-Live Link: [Add your live deployed link here]
+Live Link: https://cedar-creatives.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/index.html
 
 📖 Project Overview
 
