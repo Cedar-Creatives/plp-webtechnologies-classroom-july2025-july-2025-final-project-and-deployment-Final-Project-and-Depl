@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NovaTech Solutions - Projects</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">NovaTech</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    </nav>
+  </header>
+
+  <section class="projects">
+    <h1>Our Projects</h1>
+    <div class="filters">
+      <button class="filter-btn active" data-category="all">All</button>
+      <button class="filter-btn" data-category="web">Web</button>
+      <button class="filter-btn" data-category="mobile">Mobile</button>
+      <button class="filter-btn" data-category="ai">AI</button>
+    </div>
+    <div class="grid">
+      <div class="project-card" data-category="web">
+        <img src="images/project1.jpg" alt="Web Project" />
+        <h4>E-Commerce Website</h4>
+      </div>
+      <div class="project-card" data-category="mobile">
+        <img src="images/project2.jpg" alt="Mobile Project" />
+        <h4>Delivery App</h4>
+      </div>
+      <div class="project-card" data-category="ai">
+        <img src="images/project3.jpg" alt="AI Project" />
+        <h4>AI Chatbot</h4>
+      </div>
+      <div class="project-card" data-category="web">
+        <img src="images/project4.jpg" alt="Web Project" />
+        <h4>Corporate Site</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox">
+    <span id="lightboxClose">&times;</span>
+    <img id="lightboxImg" src="" alt="Expanded Project" />
+    <p id="lightboxCaption"></p>
+  </div>
+
+  <footer>
+    <p>© 2025 NovaTech Solutions | All Rights Reserved</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
